@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+    float a,b;
+    cout<<"Enter number1: ";
+    cin>>a;
+    cout<<"Enter number2: ";
+    cin>>b;
+
+    //sum of numbers
+    cout<<"Sum= "<<a+b<<endl;
+
+    //substraction of numbers
+    cout<<"Substraction= "<<a-b<<endl;
+
+    //multiplication of numbers
+    cout<<"Multiplication= "<<a*b<<endl;
+
+    //division of numbers
+    cout<<"Division= "<<a/b<<endl;
+
+    return 0;
+}
