@@ -1,0 +1,32 @@
+//make student grading system.
+
+#include <iostream>
+using namespace std;
+int main(){
+    float p,c,m,t;
+
+    cout<<"Enter Physics marks: ";
+    cin>>p;
+    cout<<"Enter Chemistry marks: ";
+    cin>>c;
+    cout<<"Enter maths marks: ";
+    cin>>m;
+    t=(p+c+m)/3;
+    cout<<"Average Marks= "<<t<<endl;
+
+    if(t>=90){
+        cout<<"Outstanding grade."<<endl;
+    }else if(t>=80){
+        cout<<"A grade."<<endl;
+    }else if(t>=60){
+        cout<<"B grade."<<endl;
+    }else if(t>=35){
+        cout<<"C grade."<<endl;
+    }else if(t>=0){
+        cout<<"Failed."<<endl;
+    }else{
+        cout<<"Enter values between 0 to 100!!!!!!"<<endl;
+    }
+
+    return 0;
+}
