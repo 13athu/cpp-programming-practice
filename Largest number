@@ -1,0 +1,26 @@
+//Largest of the threee numbers
+
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+
+    cout<<"Enter number1: ";
+    cin>>a;
+    cout<<"Enter number2: ";
+    cin>>b;
+    cout<<"Enter number3: ";
+    cin>>c;
+
+    if(a>b){
+        cout<<a<<" is largest number."<<endl;
+    }else if(b>c){
+        cout<<b<<" is largest number."<<endl;
+    }else if(c>a){
+        cout<<c<<" is largest number."<<endl;
+    }else{
+        cout<<"All numbers are equal."<<endl;
+    }
+
+    return 0;
+}
