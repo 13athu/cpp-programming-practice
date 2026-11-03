@@ -1,0 +1,20 @@
+//to check that if a number is positive, negative or 0.
+
+#include <iostream>
+using namespace std;
+int main(){
+    float a;
+
+    cout<<"Enter number: ";
+    cin>>a;
+
+    if(a>0){
+        cout<<"It is Even number."<<endl;
+    }else if(a<0){
+        cout<<"It is Odd number."<<endl;
+    }else{
+        cout<<"It is 0."<<endl;
+    }
+
+    return 0;
+}
